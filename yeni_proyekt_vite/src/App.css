@@ -1,0 +1,59 @@
+.basketcss{
+  border: 1px solid black;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 37vh;
+}
+.wishcss{
+  border: 1px solid black;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 30vh;
+}
+.viwe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 55vh;
+}
+
+.box3{
+  border: 1px solid black;
+  background-color: rgba(153, 205, 50, 0.17);
+}
+
+
+/* lllllllllllllllllllllllllllllllllllllll */
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination button {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #45a049;
+}
+
